@@ -1,0 +1,17 @@
+{
+  "name": "authwith_c_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run dev --prefix frontend",
+    "server": "npm run server --prefix backend",
+    "dev": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
