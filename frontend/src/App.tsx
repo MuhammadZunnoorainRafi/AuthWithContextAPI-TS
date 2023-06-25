@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/Home';
 import UpdateUser from './pages/UpdateUser';
 import Private from './pages/Private';
-import PrivateRoute from './utils/PrivateRoute';
 
 axios.defaults.baseURL =
   process.env.NODE_ENV === 'development' ? 'http://localhost:4000' : '';
